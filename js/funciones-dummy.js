@@ -133,8 +133,8 @@ function generar() {
 
     for (let i = 0; i < 50000; i++) {
        resultado+= `('${matricula++}'),
-         '${apellidosAlemanes[Math.floor(Math.random()*100)]}',
-         '${apellidosEspanoles[Math.floor(Math.random()*100)]}', 
+         '${apellidosAlemanes[Math.floor(Math.random()*98)]}',
+         '${apellidosEspanoles[Math.floor(Math.random()*95)]}', 
          '${Math.floor(Math.random()*2+1) == 1 ? nombresEspanol[Math.floor(Math.random()*100)] : nombresChino[Math.floor(Math.random()*100)] +" "+ nombresEspanol[Math.floor(Math.random()*100)]}' ,
          '${matricula-1}@unikino.edu.mx',
         '${fechasAleatorias}')<br>`;}
